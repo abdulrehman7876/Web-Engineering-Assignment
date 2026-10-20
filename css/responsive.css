@@ -1,0 +1,69 @@
+/* The Urban Spoon - shared stylesheet (HTML + CSS only) */
+
+/* 12. Responsive */
+@media (max-width: 900px) {
+  .nav-button {
+    display: block;
+  }
+  .main-nav {
+    position: absolute;
+    top: 100%;
+    left: 0;
+    right: 0;
+    background: var(--charcoal);
+    max-height: 0;
+    overflow: hidden;
+    transition: max-height 0.4s;
+  }
+  .main-nav ul {
+    flex-direction: column;
+    gap: 0;
+    padding: 0 4%;
+  }
+  .main-nav li a {
+    display: block;
+    padding: 0.8rem 0;
+    border-bottom: 1px solid #3a3a3a;
+  }
+  .nav-toggle:checked ~ .main-nav {
+    max-height: 600px;
+  }
+  .nav-toggle:checked ~ .nav-button span {
+    background: transparent;
+  }
+  .nav-toggle:checked ~ .nav-button span::before {
+    top: 0;
+    transform: rotate(45deg);
+  }
+  .nav-toggle:checked ~ .nav-button span::after {
+    top: 0;
+    transform: rotate(-45deg);
+  }
+  .split,
+  .special {
+    grid-template-columns: 1fr;
+  }
+  .footer-grid {
+    grid-template-columns: 1fr;
+  }
+  .hero {
+    padding: 6rem 0 5rem;
+  }
+}
+@media (max-width: 560px) {
+  h2 {
+    font-size: 1.8rem;
+  }
+  .row {
+    grid-template-columns: 1fr;
+  }
+  .section {
+    padding: 3rem 0;
+  }
+}
+@media (prefers-reduced-motion: reduce) {
+  * {
+    transition: none !important;
+    scroll-behavior: auto !important;
+  }
+}

@@ -1,0 +1,63 @@
+/* The Urban Spoon - shared stylesheet (HTML + CSS only) */
+
+/* 13. Background images for hero and banners */
+.bg-plate {
+  --bg: url("https://images.unsplash.com/photo-1504674900247-0877df9cc836?auto=format&fit=crop&w=800&q=70");
+}
+.bg-salad {
+  --bg: url("https://images.unsplash.com/photo-1546069901-ba9599a7e63c?auto=format&fit=crop&w=800&q=70");
+}
+.bg-pan {
+  --bg: url("https://images.unsplash.com/photo-1567620905732-2d1ec7ab7445?auto=format&fit=crop&w=800&q=70");
+}
+.bg-room {
+  --bg: url("https://images.unsplash.com/photo-1555396273-367ea4eb4db5?auto=format&fit=crop&w=800&q=70");
+}
+.bg-burger {
+  --bg: url("https://images.unsplash.com/photo-1568901346375-23c9450c58cd?auto=format&fit=crop&w=800&q=70");
+}
+.bg-pizza {
+  --bg: url("https://images.unsplash.com/photo-1565299624946-b28f40a0ae38?auto=format&fit=crop&w=800&q=70");
+}
+.bg-egg {
+  --bg: url("https://images.unsplash.com/photo-1482049016688-2d3e1b311543?auto=format&fit=crop&w=800&q=70");
+}
+.bg-dish {
+  --bg: url("https://images.unsplash.com/photo-1414235077428-338989a2e8c0?auto=format&fit=crop&w=800&q=70");
+}
+.bg-fish {
+  --bg: url("https://images.unsplash.com/photo-1519708227418-c8fd9a32b7a2?auto=format&fit=crop&w=800&q=70");
+}
+.bg-steak {
+  --bg: url("https://images.unsplash.com/photo-1600891964092-4316c288032e?auto=format&fit=crop&w=800&q=70");
+}
+.bg-pasta {
+  --bg: url("https://images.unsplash.com/photo-1551183053-bf91a1d81141?auto=format&fit=crop&w=800&q=70");
+}
+.bg-bfast {
+  --bg: url("https://images.unsplash.com/photo-1488477181946-6428a0291777?auto=format&fit=crop&w=800&q=70");
+}
+.bg-room2 {
+  --bg: url("https://images.unsplash.com/photo-1517248135467-4c7edcad34c4?auto=format&fit=crop&w=800&q=70");
+}
+.bg-room3 {
+  --bg: url("https://images.unsplash.com/photo-1559339352-11d035aa65de?auto=format&fit=crop&w=800&q=70");
+}
+.bg-dessert {
+  --bg: url("https://images.unsplash.com/photo-1551024601-bec78aea704b?auto=format&fit=crop&w=800&q=70");
+}
+.bg-ice {
+  --bg: url("https://images.unsplash.com/photo-1563805042-7684c019e1cb?auto=format&fit=crop&w=800&q=70");
+}
+.bg-drink {
+  --bg: url("https://images.unsplash.com/photo-1544145945-f90425340c7e?auto=format&fit=crop&w=800&q=70");
+}
+.bg-drink2 {
+  --bg: url("https://images.unsplash.com/photo-1556679343-c7306c1976bc?auto=format&fit=crop&w=800&q=70");
+}
+.bg-kitchen {
+  --bg: url("https://images.unsplash.com/photo-1556910103-1c02745aae4d?auto=format&fit=crop&w=800&q=70");
+}
+.bg-salad2 {
+  --bg: url("https://images.unsplash.com/photo-1540189549336-e6e99c3679fe?auto=format&fit=crop&w=800&q=70");
+}

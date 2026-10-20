@@ -1,0 +1,64 @@
+/* The Urban Spoon - shared stylesheet (HTML + CSS only) */
+
+/* 1. Variables and reset */
+:root {
+  --charcoal: #202020;
+  --cream: #fff8ef;
+  --orange: #d96c36;
+  --white: #ffffff;
+  --gray: #777777;
+  --radius: 14px;
+  --shadow: 0 6px 18px rgba(32, 32, 32, 0.1);
+}
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+html {
+  scroll-behavior: smooth;
+}
+body {
+  font-family: "Poppins", Arial, sans-serif;
+  color: var(--charcoal);
+  background: var(--white);
+  line-height: 1.7;
+}
+img {
+  max-width: 100%;
+  display: block;
+  background: #e9dfd2;
+}
+a {
+  color: var(--orange);
+  text-decoration: none;
+  transition: color 0.25s;
+}
+a:hover {
+  color: var(--charcoal);
+}
+ul {
+  list-style: none;
+}
+h1,
+h2,
+h3 {
+  font-family: "Playfair Display", Georgia, serif;
+  line-height: 1.2;
+}
+h2 {
+  font-size: 2.2rem;
+  margin-bottom: 0.5rem;
+}
+h3 {
+  font-size: 1.25rem;
+  margin-bottom: 0.4rem;
+}
+.container {
+  width: min(1120px, 92%);
+  margin: 0 auto;
+}
+.center {
+  text-align: center;
+  margin-top: 2rem;
+}
