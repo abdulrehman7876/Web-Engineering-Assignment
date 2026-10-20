@@ -1,0 +1,99 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="description" content="Reserve a table at The Urban Spoon (front-end demo form).">
+  <title>Reservations | The Urban Spoon</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:wght@500;700&amp;family=Poppins:wght@400;500;600&amp;display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <header class="site-header">
+    <div class="container header-inner">
+      <a class="logo" href="index.html">The Urban Spoon</a>
+      <input type="checkbox" id="nav-toggle" class="nav-toggle">
+      <label for="nav-toggle" class="nav-button" aria-label="Open menu"><span></span></label>
+      <nav class="main-nav" aria-label="Main navigation">
+        <ul>
+          <li><a href="index.html">Home</a></li>
+          <li><a href="menu.html">Menu</a></li>
+          <li><a href="breakfast.html">Breakfast</a></li>
+          <li><a href="lunch.html">Lunch</a></li>
+          <li><a href="dinner.html">Dinner</a></li>
+          <li><a href="offers.html">Offers</a></li>
+          <li><a href="about.html">About</a></li>
+          <li><a href="gallery.html">Gallery</a></li>
+          <li><a href="reservations.html" class="active">Reservations</a></li>
+          <li><a href="contact.html">Contact</a></li>
+        </ul>
+      </nav>
+    </div>
+  </header>
+
+  <main>
+    <section class="banner bg-room3">
+      <h1>Reservations</h1>
+      <p>Book ahead for weekends and groups.</p>
+    </section>
+    <section class="section ">
+      <div class="container">
+        <h2>Reserve a Table</h2>
+        <p class="lead">Tell us when you are coming and we will have your table ready.</p>
+      <p class="note"><strong>Demo only:</strong> this form is a front-end demonstration. It does not store or send reservations because this project uses no backend and no JavaScript.</p>
+      <form class="form" action="#" method="get">
+        <label for="name">Full name</label>
+        <input type="text" id="name" name="name" placeholder="Your full name" required>
+        <label for="email">Email</label>
+        <input type="email" id="email" name="email" placeholder="you@example.com" required>
+        <label for="phone">Phone</label>
+        <input type="tel" id="phone" name="phone" placeholder="+00 000 000 0000" required>
+        <div class="row">
+          <div><label for="date">Date</label><input type="date" id="date" name="date" required></div>
+          <div><label for="time">Time</label><input type="time" id="time" name="time" required></div>
+          <div><label for="guests">Guests</label><input type="number" id="guests" name="guests" min="1" max="20" value="2" required></div>
+        </div>
+        <label for="requests">Special requests</label>
+        <textarea id="requests" name="requests" rows="4" placeholder="Allergies, birthdays, seating..."></textarea>
+        <button type="submit" class="btn">Request Reservation</button>
+      </form>
+      </div>
+    </section>
+    <section class="section cream"><div class="container center"><a class="btn btn-light dark" href="menu.html">Preview the Menu</a> <a class="btn btn-light dark" href="contact.html">Contact Us</a></div></section>
+
+  </main>
+
+  <footer class="site-footer">
+    <div class="container footer-grid">
+      <div>
+        <h3>The Urban Spoon</h3>
+        <p>Modern casual dining with a premium feel.</p>
+        <p>Sample address: 12 Garden Road, Sample City</p>
+        <p>Sample phone: +00 000 000 0000</p>
+      </div>
+      <div>
+        <h3>Opening Hours</h3>
+        <p>Mon - Fri: 8:00 AM - 10:00 PM</p>
+        <p>Sat - Sun: 9:00 AM - 11:00 PM</p>
+      </div>
+      <div>
+        <h3>Pages</h3>
+        <ul class="footer-links">
+          <li><a href="index.html">Home</a></li>
+          <li><a href="menu.html">Menu</a></li>
+          <li><a href="breakfast.html">Breakfast</a></li>
+          <li><a href="lunch.html">Lunch</a></li>
+          <li><a href="dinner.html">Dinner</a></li>
+          <li><a href="offers.html">Offers</a></li>
+          <li><a href="about.html">About</a></li>
+          <li><a href="gallery.html">Gallery</a></li>
+          <li><a href="reservations.html">Reservations</a></li>
+          <li><a href="contact.html">Contact</a></li>
+        </ul>
+      </div>
+    </div>
+    <p class="copyright">&copy; 2026 The Urban Spoon. Student project. All details are samples.</p>
+  </footer>
+</body>
+</html>
